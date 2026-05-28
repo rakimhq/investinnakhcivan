@@ -436,9 +436,9 @@ section { padding: 100px 48px; }
 }
 .btn-detail:hover { background: var(--gold); color: var(--navy); }
 
-/* ─── MATCHMAKING ─────────────────────── */
-#matchmaking { background: #060f1e; position: relative; overflow: hidden; }
-#matchmaking::before {
+/* ─── Uyğunlaşdırma ─────────────────────── */
+#Uyğunlaşdırma { background: #060f1e; position: relative; overflow: hidden; }
+#Uyğunlaşdırma::before {
   content: ''; position: absolute; inset: 0;
   background: radial-gradient(ellipse 80% 60% at 50% 50%, rgba(26,48,96,0.3) 0%, transparent 70%); pointer-events: none;
 }
@@ -683,7 +683,7 @@ footer { background: #040c18; border-top: 1px solid var(--border-gold); padding:
       <a href="#dashboard">📊 Dashboard</a>
       <a href="#map-section">🗺️ İnteraktiv Xəritə</a>
       <a href="#marketplace">💼 Aktiv Layihələr</a>
-      <a href="#matchmaking">🤖 AI Uyğunlaşdırma</a>
+      <a href="#Uyğunlaşdırma">🤖 AI Uyğunlaşdırma</a>
       <a href="#sectors">🏢 Sektor Xəritəsi</a>
       <a href="#regional-advantages">📈 Regional Üstünlüklər</a>
       <a href="#stories">🌟 Uğur Hekayələri</a>
@@ -718,7 +718,7 @@ footer { background: #040c18; border-top: 1px solid var(--border-gold); padding:
   </p>
   <div class="hero-actions">
     <button class="btn-primary" onclick="document.getElementById('marketplace').scrollIntoView({behavior:'smooth'})">Layihələrə Bax →</button>
-    <button class="btn-outline" onclick="document.getElementById('matchmaking').scrollIntoView({behavior:'smooth'})">AI Uyğunlaşdırma</button>
+    <button class="btn-outline" onclick="document.getElementById('Uyğunlaşdırma').scrollIntoView({behavior:'smooth'})">AI Uyğunlaşdırma</button>
   </div>
   <div class="hero-stats">
     <div class="hero-stat">
@@ -1085,11 +1085,11 @@ footer { background: #040c18; border-top: 1px solid var(--border-gold); padding:
 
 <div class="divider-gold"></div>
 
-<!-- MATCHMAKING -->
-<section id="matchmaking">
+<!-- Uyğunlaşdırma -->
+<section id="Uyğunlaşdırma">
   <div>
     <span class="section-tag">Süni intellekt — İnvestor Uyğunlaşdırma</span>
-    <h2 class="section-heading">AI <span>Matchmaking</span> & Diaspora Paneli</h2>
+    <h2 class="section-heading">AI <span>Uyğunlaşdırma</span> & Diaspora Paneli</h2>
     <p class="section-desc">Alqoritm sizin maraq dairəniz ilə Naxçıvandakı layihələri birbaşa uyğunlaşdırır. Diaspora VİP şəbəkəsi.</p>
   </div>
   <div class="match-layout">
@@ -1355,7 +1355,7 @@ footer { background: #040c18; border-top: 1px solid var(--border-gold); padding:
         <li><a href="#dashboard">Dashboard</a></li>
         <li><a href="#map-section">İnvestisiya Xəritəsi</a></li>
         <li><a href="#marketplace">Aktiv Layihələr</a></li>
-        <li><a href="#matchmaking">AI Uyğunlaşdırma</a></li>
+        <li><a href="#Uyğunlaşdırma">AI Uyğunlaşdırma</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -1427,7 +1427,7 @@ function selectRegion(name, desc) {
   selectPinInfo(name, desc);
 }
 
-// Matchmaking
+// Uyğunlaşdırma
 function togglePref(el) {
   el.classList.toggle('selected');
   const check = el.querySelector('.match-pref-check');
